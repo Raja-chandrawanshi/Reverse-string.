@@ -1,0 +1,29 @@
+<!--  @Description - Reverse the string..
+          
+      *step 1   - First convert the string into array of substings.
+      *step 2   - create new variable "sum" and assign it with  Empty string.
+      *step 3   - Apply reverse loop on  a array .
+      *step 3.1 - And store every value of array in variable "sum".
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  let str = "raja";
+  let splitstring = str.split("");
+
+  let sum = "";
+  for (let i = splitstring.length - 1; i >= 0; i--) {
+    sum = sum + splitstring[i];
+  }
+  console.log(sum);
+</script>
